@@ -82,10 +82,10 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '肥羊生日', year: '1997, date: '02-12', 
+          type: '*生日', name: '肥羊生日', year: '1997', date: '02-12', 
         },
         {
-          type: '节日', name: '在一起的日子', year: '2020', date: '09-03',
+          type: '节日', name: '在一起的日子', year: '2021', date: '10-29',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
@@ -178,9 +178,9 @@ const USER_CONFIG = {
       city: '合肥',
       horoscopeDate: '03-20',
       horoscopeDateType: '今日',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: ['肥羊生日'],
-      customizedDateList: [],
+      openUrl: 'https://baidu.com',
+      festivals: [{type: '*生日', name: '肥羊生日', year: '1997', date: '02-12',}, { type: '节日', name: '在一起纪念日', year: '2021', date: '10-29',}],
+      customizedDateList: [{keyword: 'love_day', date: '2021-10-29'},],
       courseSchedule: null
     },
     {
