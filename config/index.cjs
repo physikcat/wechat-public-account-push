@@ -37,12 +37,12 @@ const USER_CONFIG = {
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
-    poisonChickenSoup: true
+    poisonChickenSoup: true,
     // 古诗古文
     poetry: false,
 
     /** 星座运势 */
-    horoscope: true
+    horoscope: true,
 
     /** 生日消息和节日消息 */
     birthdayMessage: true,
@@ -176,7 +176,7 @@ const USER_CONFIG = {
       useTemplateId: 'GvnX9ThAZakN_zBuHkV6FNkdIXxTouz7fTl-OQ7H4T4',
       province: '安徽',
       city: '合肥',
-      horoscopeDate: '03-20
+      horoscopeDate: '03-20',
       horoscopeDateType: '今日',
       openUrl: 'https://wangxinleo.cn',
       festivals: ['肥羊生日'],
