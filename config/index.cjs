@@ -82,7 +82,7 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '肥羊生日', year: '1997', date: '02-12', 
+          type: '*生日', name: '肥羊生日1', year: '1997', date: '02-12', 
         },
         {
           type: '节日', name: '在一起的日子', year: '2021', date: '10-29',
@@ -296,7 +296,7 @@ const USER_CONFIG = {
    * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    { keyword: 'love_day', date: '2022-09-08' },
+    { keyword: 'love_day1', date: '2022-09-08' },
     // 结婚纪念日
     { keyword: 'marry_day', date: '2022-09-09' },
     // 退伍日
