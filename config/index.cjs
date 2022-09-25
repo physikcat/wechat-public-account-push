@@ -25,11 +25,11 @@ const USER_CONFIG = {
 
     /** 节假日 */
     // 下一休息日综合提醒
-    holidaytts: true,
+    holidaytts: false,
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: true,
+    CIBA: false,
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
@@ -70,8 +70,20 @@ const USER_CONFIG = {
       horoscopeDate: '03-20',
       horoscopeDateType: '今日',
       openUrl: 'https://baidu.com',
-      festivals: [{type: '*生日', name: '肥羊生日', year: '1997', date: '02-12',}, { type: '节日', name: '在一起纪念日', year: '2021', date: '10-29',}],
-      customizedDateList: [{keyword: 'love_day', date: '2021-10-29'}],
+      festivals: [
+        {
+          type: '*生日', name: '肥羊生日', year: '1997', date: '02-12',
+        }, 
+                  
+        { 
+          type: '节日', name: '在一起纪念日', year: '2021', date: '10-29',
+        }
+      ],
+      customizedDateList: [
+        {
+          keyword: 'love_day', date: '2021-10-29'
+        }
+      ],
       courseSchedule: null
     },
 
